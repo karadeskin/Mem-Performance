@@ -40,7 +40,7 @@ cd Mem-Performance
 
 3. Create and activate a virtual environment (optional but recommended):
 ```bash
-python3 -m venv venv
+python3.10 -m venv venv
 source venv/bin/activate  #macOS/Linux
 venv\Scripts\activate  #Windows
 ```
