@@ -41,9 +41,8 @@ cd Mem-Performance
 3. Create and activate a virtual environment (optional but recommended):
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # On macOS/Linux
-# or
-venv\Scripts\activate  # On Windows
+source venv/bin/activate  #macOS/Linux
+venv\Scripts\activate  #Windows
 ```
 
 4. Install the required dependencies: 
@@ -57,14 +56,14 @@ pip install -r requirements.txt
 
 Run `dataset.py` to generate the synthetic dataset:
 ```bash
-python dataset.py
+python(3) dataset.py
 ```
 
 ### Step 2: Train and Evaluate the Model 
 
 Run mem.py to load the dataset, preprocess the data, and train the neural network model:
 ``` bash
-python mem.py
+python(3) mem.py
 ```
 
 ## Model Evaluation 
@@ -78,5 +77,6 @@ The model’s performance is evaluated using Mean Squared Error (MSE) and R-squa
 * Experiment with hyperparameter tuning.
 
 ## Acknowledgements 
+
 * TensorFlow and Keras for providing the neural network framework.
-* scikit-learn for data preprocessing and model evaluation tools
+* scikit-learn for data preprocessing and model evaluation tools.
