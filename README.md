@@ -70,6 +70,12 @@ python(3) mem.py
 
 The model’s performance is evaluated using Mean Squared Error (MSE) and R-squared metrics. The results are displayed in the terminal after running the script.
 
+## Graph: Actual vs. Predicted Retention Scores
+
+Below is a scatter plot showing the relationship between actual and predicted retention scores in the memory performance model:
+
+![Memory Performance Graph](./graph.png)
+
 ## Future Improvements 
 
 * Add more advanced model architectures.
