@@ -87,7 +87,7 @@ The model is evaluated using **Mean Squared Error (MSE)** and **R-squared (R²) 
 - **R² Score** explains the proportion of variance in retention scores that the model captures (closer to 1 is better).
 - The artificial neural network consists of:
   * Input layer (4 features)
-	* Two hidden layers (6 neurons each, ReLU activation)
+  * Two hidden layers (6 neurons each, ReLU activation)
   * Output layer (predicts retention score)
 
 ## Graph: Actual vs. Predicted Retention Scores
