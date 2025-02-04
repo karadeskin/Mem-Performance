@@ -21,6 +21,16 @@ The dataset is synthetically generated and includes the following features:
 
 The dataset is generated in `dataset.py` and saved to a CSV file (`Memory_Performance.csv`).
 
+## Project Structure
+
+Mem-Performance/
+│── dataset.py          #generates the synthetic dataset
+│── mem.py              #loads dataset, trains the model, evaluates performance
+│── Memory_Performance.csv  #generated dataset
+│── requirements.txt    #dependencies for running the project
+│── graph.png           #visualization of actual vs predicted retention scores
+│── README.md           #project documentation
+
 ## Files
 
 - `dataset.py`: This script generates a synthetic dataset with the features mentioned above.
@@ -56,19 +66,23 @@ pip install -r requirements.txt
 
 Run `dataset.py` to generate the synthetic dataset:
 ```bash
-python(3) dataset.py
+python3 dataset.py #macOS/Linux
+python dataset.py #Windows
 ```
 
 ### Step 2: Train and Evaluate the Model 
 
 Run mem.py to load the dataset, preprocess the data, and train the neural network model:
 ``` bash
-python(3) mem.py
+python3 mem.py #macOS/Linux
+python mem.py #Windows 
 ```
+## Model Evaluation
 
-## Model Evaluation 
+The model is evaluated using **Mean Squared Error (MSE)** and **R-squared (R²) metrics**:
 
-The model’s performance is evaluated using Mean Squared Error (MSE) and R-squared metrics. The results are displayed in the terminal after running the script.
+- **MSE** measures the average squared difference between actual and predicted retention scores. A lower value indicates better model accuracy.
+- **R² Score** explains the proportion of variance in retention scores that the model captures (closer to 1 is better).
 
 ## Graph: Actual vs. Predicted Retention Scores
 
