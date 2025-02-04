@@ -23,6 +23,7 @@ The dataset is generated in `dataset.py` and saved to a CSV file (`Memory_Perfor
 
 ## Project Structure
 
+```bash
 Mem-Performance/
 │── dataset.py          #generates the synthetic dataset
 │── mem.py              #loads dataset, trains the model, evaluates performance
@@ -30,6 +31,7 @@ Mem-Performance/
 │── requirements.txt    #dependencies for running the project
 │── graph.png           #visualization of actual vs predicted retention scores
 │── README.md           #project documentation
+```
 
 ## Files
 
