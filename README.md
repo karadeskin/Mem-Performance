@@ -83,7 +83,7 @@ python mem.py #Windows
 
 The model is evaluated using **Mean Squared Error (MSE)**:
 
-- **MSE** measures the average squared difference between actual and predicted retention scores. A lower value indicates better model accuracy.
+- **MSE** measures the average squared difference between actual and predicted retention scores. A lower value indicates better model accuracy. The model achieved an **MSE value of 67.87** after training, indicating a good fit for predicting memory retention scores.
 - The artificial neural network consists of:
   * Input layer (4 features)
   * Two hidden layers (6 neurons each, ReLU activation)
