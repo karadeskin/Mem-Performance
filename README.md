@@ -2,11 +2,17 @@
 
 ## Overview
 
-This project uses a neural network (ANN) to predict memory retention scores based on study habits. The dataset contains features like:
+This project uses a neural network (ANN) to predict memory retention scores based on study habits. The project explores how study patterns impact memory, aiming to provide insights to optimize learning strategies. The dataset contains features like:
 - **TimeSinceStudy**: The number of days since a student last studied.
 - **Repetitions**: The number of repetitions of the study material.
 - **StudyTime**: The time spent studying in minutes.
 - **Difficulty**: The difficulty level of the study material (categorical: Easy, Medium, Hard).
+
+## Tools & Environment
+
+- Python 3.10  
+- TensorFlow, Keras, scikit-learn  
+- Recommend using a virtual environment for setup
 
 The goal of this project is to predict the **RetentionScore** based on these features using an Artificial Neural Network.
 
@@ -89,11 +95,17 @@ The model is evaluated using **Mean Squared Error (MSE)**:
   * Two hidden layers (6 neurons each, ReLU activation)
   * Output layer (predicts retention score)
 
+ ## How It Works
+
+The script preprocesses the dataset (including one-hot encoding for categorical variables), trains an ANN using Keras, and visualizes predictions. The model uses ReLU activations in hidden layers and outputs a single retention score prediction.
+
 ## Graph: Actual vs. Predicted Retention Scores
 
 Below is a scatter plot showing the relationship between actual and predicted retention scores in the memory performance model:
 
 ![Memory Performance Graph](./graph.png)
+
+The graph is generated automatically when running mem.py and saved as graph.png. 
 
 ## Future Improvements 
 
