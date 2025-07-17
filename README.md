@@ -124,13 +124,13 @@ All EDA plots (histograms, correlation matrix, boxplots) are saved automatically
 Here are some insights from the dataset:
 
 - Distribution of Study Time:
-![Study Time Distribution](./plots/StudyTime_distribution.png)
+![Study Time Distribution](./plots/hist_StudyTime.png)
 
 - Correlation Matrix:
 ![Correlation Matrix](./plots/correlation_matrix.png)
 
 - Retention Score by Difficulty:
-![Retention by Difficulty](./plots/retention_by_difficulty.png)
+![Retention by Difficulty](./plots/boxplot_retention_by_difficulty.png)
 
 ## Results
 
